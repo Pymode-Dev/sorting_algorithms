@@ -2,7 +2,7 @@
 
 
 /**
- * swap_arr: this swap element in an array
+ * swap_arr - this swap element in an array
  * @array: the array
  * @first: the first element
  * @second: the second element

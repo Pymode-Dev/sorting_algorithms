@@ -2,8 +2,8 @@
 
 
 /**
- * bubble_sort: function that sorts an array of integers in ascending order
- * using the bubble sort algorthm
+ * bubble_sort - function that sorts an array of integers in ascending order
+ *
  * @array: the array to sort
  * @size: the size of the array to sort
  * Return: void
@@ -21,7 +21,7 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[j] > array[j + 1])
 			{
-				swap_arr(array, j, j+1);
+				swap_arr(array, j, j + 1);
 				print_array(array, size);
 			}
 		}
