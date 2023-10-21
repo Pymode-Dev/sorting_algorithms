@@ -49,6 +49,9 @@ int main()
 
 	print_list(list);
 	printf("\n");
+	insertion_sort_list(&list);
+	printf("\n");
+	print_list(list);
 
 	return (0);
 }
