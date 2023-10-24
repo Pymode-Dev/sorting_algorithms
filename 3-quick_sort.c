@@ -55,17 +55,16 @@ int lomuto_pivot(int *array, size_t size, int low, int high)
 	pivot = array[high];
 	i = low - 1;
 
-	for (j = low; j < high - 1; j++)
+	for (j = low; j < high; j++)
 	{
 		if (pivot > array[j])
 		{
+			i++;
 			swap_arr(array, i, j);
 			print_array(array, size);
-			i++;
 		}
 	}
 	swap_arr(array, i + 1, high);
-	print_array(array, size);
 	return (i + 1);
 }
 
