@@ -42,6 +42,7 @@ void quick_sort(int *array, size_t size)
 /**
  * lomuto_pivot - pivot scheme using lomuto algorithm
  * @array: the array
+ * @size: the size of the array
  * @low: the lowest pivot
  * @high: the highest index
  * Return: size_t
@@ -71,6 +72,7 @@ int lomuto_pivot(int *array, size_t size, int low, int high)
 /**
  * lomuto_sort - lomuto sort using lomuto pivot scheme
  * @array: the array to sort
+ * @size: the size of the array
  * @low: the lowest pivot
  * @high: the highest pivot
  * Return: void
